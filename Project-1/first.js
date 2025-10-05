@@ -17,7 +17,6 @@ const updateCounter = (value) => {
   }
 
   // for minus button
-
   if (counter <= 0) {
     minusButton.setAttribute("disabled", true);
   } else {

@@ -22,7 +22,7 @@ const copyColorCode = () => {
   //   //   document.body.appendChild(inputTag);
   //   //   inputTag.value = colorCode.innerText;
   //   //   inputTag.select();
-  //   //   //   document.execCommand("copy");
+  //    //   document.execCommand("copy");
   //   //   document.body.removeChild(inputTag);
 
   navigator.clipboard.writeText(colorCode.innerText);
